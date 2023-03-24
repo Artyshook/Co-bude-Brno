@@ -37,7 +37,9 @@ main {
 }
 
 nav {
-  float: right;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 nav ul {
