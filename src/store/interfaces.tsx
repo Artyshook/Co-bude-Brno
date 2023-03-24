@@ -19,13 +19,17 @@ export interface NavbarApiResponse {
   data: NavbarData;
 }
 
-export interface FooterLink {
+interface ColumnItem {
   name: string;
   url: string;
 }
 
+// export interface FooterColumns {
+//   items: ColumnItem[];
+// }
+
 export interface FooterColumn {
-  links: FooterLink[];
+  items: ColumnItem[];
 }
 
 export interface FooterData {

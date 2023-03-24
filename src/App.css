@@ -76,21 +76,68 @@ nav li ul li {
 nav li ul li a {
   padding: 15px;
   line-height: 20px;
+}.footer {
+   position: absolute;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #232323;
+   color: #ffffff;
+   text-align: center;
+ }
+
+.footer-column {
+  display: flex;
+  flex-direction: column;
 }
 
-footer {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 180px; /* replace 200px with the actual height of your footer */
-  background-color: black;
+.footer-column ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-column a {
   color: #ffffff;
-  text-align: center;
-}
-
-footer a {
-  margin: 0 10px;
   text-decoration: none;
+  transition: color 0.2s ease-in-out;
+  display: flex;
+  align-items: start;
+  padding-top: 10px;
+}
+
+.footer-column a:hover {
+  color: #666;
+}
+
+.footer-address {
+  margin-top: 20px;
+  color: gray;
+}
+
+
+.footer-social a {
+  display: flex;
+  margin-right: 10px;
   color: #ffffff;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+  padding-top: 10px;
+}
+
+.footer-social a:hover {
+  color: #666;
+}
+
+.footer-copyright {
+  margin-top: 20px;
+  color: gray;
+}
+
+.footer-row {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  align-items: center;
+  padding: 5px;
 }

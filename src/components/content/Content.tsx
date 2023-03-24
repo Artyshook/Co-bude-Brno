@@ -50,7 +50,7 @@ const Perex = styled.p`
   margin-bottom: 20px;
 `;
 
-const ContentText = styled.div`
+export const ContentText = styled.div`
 
   font-size: 18px;
   line-height: 1.5;
